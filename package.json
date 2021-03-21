@@ -1,0 +1,51 @@
+{
+  "private": false,
+  "name": "compare-similarity",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "father-build",
+    "format": "prettier --write src/*.ts",
+    "format-check": "prettier --check src/*.ts",
+    "lint": "eslint src/*.ts",
+    "prepublishOnly": "npm run build && np --yolo --no-publish",
+    "all": "yarn format-check && yarn lint && yarn build"
+  },
+  "author": "xrkffgg",
+  "homepage": "https://github.com/xrkffgg/compare-similarity",
+  "keywords": [
+    "action",
+    "ts",
+    "js",
+    "tool",
+    "util",
+    "compare",
+    "similarity"
+  ],
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xrkffgg/compare-similarity/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xrkffgg/compare-similarity",
+    "branch": "main"
+  },
+  "devDependencies": {
+    "@umijs/fabric": "^2.5.6",
+    "eslint": "^7.18.0",
+    "father-build": "^1.19.1",
+    "np": "^7.2.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5"
+  }
+}
