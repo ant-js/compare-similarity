@@ -14,6 +14,7 @@ const { compare } = require('compare-similarity');
 import { compare } from 'compare-similarity';
 
 compare(a, b);
+console.log('1234', '123'); // 0.75
 ```
 
 ## LICENSE
