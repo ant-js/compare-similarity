@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "compare-similarity",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
