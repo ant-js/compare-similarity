@@ -14,7 +14,7 @@
     "all": "yarn format-check && yarn lint && yarn build"
   },
   "author": "xrkffgg",
-  "homepage": "https://github.com/xrkffgg/compare-similarity",
+  "homepage": "https://github.com/ant-js/compare-similarity",
   "keywords": [
     "action",
     "ts",
@@ -31,11 +31,11 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xrkffgg/compare-similarity/issues"
+    "url": "https://github.com/ant-js/compare-similarity/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xrkffgg/compare-similarity",
+    "url": "https://github.com/ant-js/compare-similarity",
     "branch": "main"
   },
   "devDependencies": {
