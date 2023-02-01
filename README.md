@@ -3,7 +3,7 @@
 Compare the similarity of two strings.
 
 [![npm](https://img.shields.io/npm/v/compare-similarity?style=flat-square&color=orange)](https://www.npmjs.com/package/compare-similarity)
-![](https://img.shields.io/github/workflow/status/ant-js/compare-similarity/CI?style=flat-square)
+![](https://img.shields.io/github/actions/workflow/status/ant-js/compare-similarity/ci.yml?branch=main&style=flat-square)
 ![](https://img.shields.io/npm/l/compare-similarity?style=flat-square&color=blue)
 
 ## 🚀 Usage
